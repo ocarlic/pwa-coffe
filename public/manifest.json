@@ -1,0 +1,15 @@
+{
+    "name": "Exactaworks",
+    "short_name": "Exactaworks",
+    "theme_color": "#3b70cd",
+    "background_color": "#3b70cd",
+    "display": "standalone",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "../images/icon.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ]
+}
