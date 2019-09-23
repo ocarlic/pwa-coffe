@@ -4,7 +4,7 @@
     "theme_color": "#3b70cd",
     "background_color": "#3b70cd",
     "display": "standalone",
-    "start_url": "https://ocarlic.github.io/pwa-coffe",
+    "start_url": "/pwa-coffe",
     "scope": "/",
     "icons": [
         {
