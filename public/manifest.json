@@ -5,6 +5,7 @@
     "background_color": "#3b70cd",
     "display": "standalone",
     "start_url": "/pwa-coffe",
+    "scope": "/",
     "icons": [
         {
             "src": "/images/icon-72x72.png",
