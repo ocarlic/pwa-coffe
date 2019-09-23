@@ -3,12 +3,14 @@
 //const CACHE = "pwabuilder-page";
 
 const CACHE = [
-  'index.html',
+  '/',
+  '/index.html',
   '/js/index.js',
   '/css/style.css',
   '/images/icon.png',
   '/css/normalize.css',
   '/offline.html',
+  '/public/manifest.js',
 ]
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
@@ -22,7 +24,8 @@ self.addEventListener("install", function (event) {
     caches.open(CACHE).then(function (cache) {
       console.log("[PWA Builder] Cached offline page during install");
       return cache.addAll([
-        'index.html',
+        '/',
+        '/index.html',
         '/js/index.js',
         '/css/style.css',
         '/images/icon.png',
