@@ -22,10 +22,12 @@ self.addEventListener("install", function (event) {
     caches.open(CACHE).then(function (cache) {
       console.log("[PWA Builder] Cached offline page during install");
       return cache.addAll([
-        '/pwa-coffe',
         'index.html',
-        '/css/styles.css',
         '/js/index.js',
+        '/css/style.css',
+        '/images/icon.png',
+        '/css/normalize.css',
+        '/offline.html',
         '/public/manifest.js',
       ]);
       if (offlineFallbackPage === "ToDo-replace-this-name.html") {
