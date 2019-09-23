@@ -19,6 +19,7 @@
 			let image = document.createElement('img')
 			image.className = 'image'
 			image.src = item.avatar
+			image.alt = item.name
 			let name = document.createElement('p')
 			name.className = 'name'
 			name.textContent = item.name
